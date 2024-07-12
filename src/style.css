@@ -1,0 +1,98 @@
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-image: url("C:\Users\Lenovo\OneDrive\Desktop\ReactJs\Project 2\my-tictactoe\src\finalpic.jpg");
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  h1 {
+    margin:16px 0 16px 0;
+    font-size: 70px;
+    color: #dfff0c;
+    font-family: cursive;
+  }
+  
+  .container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .game {
+    height: 66vmin;
+    width: 66vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+    /* border: 7px solid black; */
+    /* border-radius: 30px; */
+    /* box-shadow:0px 0px 10px 10px black; */
+    background-color: #231639;
+  }
+  
+  .box {
+    height: 21vmin;
+    width: 21vmin;
+    border-radius: 0.3rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 14vmin;
+    color: #b21b1b;
+    background-color: #ffffc7;
+    font-family:cursive ;
+  }
+  
+  #reset-btn {
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+  }
+  
+  #new-btn {
+    padding: 1rem;
+    font-size: 2rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1.5rem;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+  
+  #msg {
+    color: #ea6931;
+    font-size: 10vmin;
+  }
+  
+  .msg-container {
+    height: 85vmin;
+    width: 110vmin;
+    border-radius: 20px;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffc7;
+
+    gap: 4.5rem;
+  }
+  
+  .hide {
+    display: none;
+  }
+  /* fmncnc */
+  
